@@ -1,0 +1,233 @@
+body
+{
+  height: 100%;
+  width: 1000px;
+  margin: auto;
+}
+
+#block-enfant-gauche
+
+ {
+     width:30%;
+     height:1400px;
+     background:#F7CA07;
+     
+ }
+
+ #block-enfant-droite
+ {
+ width:70%;
+ height:1400px;
+ background: white;
+ margin-left:34.5%;
+ margin-top:-1420px;
+ }
+ 
+#image-cv
+{
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    border-radius:50px 50px 50px 50px;
+    width: 100px;
+    height: 100PX;
+    text-align: center;
+    
+    
+
+}
+
+h2
+{
+    background-color: dimgrey;
+    color:#F7CA07;
+    text-align: center;
+
+}
+
+address
+{
+    margin-left:20px;
+    margin-top:10px;
+
+}
+
+p
+{
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#image-loisir
+{
+    width:50px;
+    height:50px;
+    margin-left: 20;
+    margin-right:20;
+    padding-left: 2O;
+
+}
+
+#mes_icones 
+{
+    
+     border-spacing:3px ;
+    border:3px
+}
+    
+#mes_icones img
+{
+     margin-right: 5px;
+     padding-left: 30px;
+}
+
+
+h1
+{
+    word-spacing: 20px;
+    font-size: 60px;
+    color: grey;
+    
+
+
+}
+
+
+#nom-prenom1
+{
+  display: block;
+}
+
+#nom-prenom2
+{
+  display: none;
+}
+
+
+r
+{   
+   color:#F7CA07;
+}
+
+h4
+{
+color:grey ;
+margin-top: -50px;
+}
+
+h3
+{
+    text-align: center;
+}
+
+s
+{
+    border-bottom:2px solid #F7CA07;
+    text-decoration: none;
+}
+
+#icons-cv
+{
+    width:30px;
+    height:30px;
+    margin-left: auto;
+    margin-right:auto;
+    color: #F7CA07;
+
+}
+
+.puce
+{
+    background-color:none;
+    color:black;
+    text-align: left;
+    border-bottom:2px solid #F7CA07;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 600;
+
+}
+
+ .p1
+{
+  text-align: center;
+  color: grey
+
+}
+
+
+#icon-cv2
+{
+    width:10px;
+    height:10px;
+    vertical-align: top;
+}
+
+#placement-icon-cv2
+{
+    vertical-align: top;
+}
+
+
+.grand_titre
+{
+  text-align: left;
+  
+ 
+}
+
+.icon_titre
+{
+  display: block;
+
+}
+
+
+.box_icone {
+  display: inline-block;
+  width: 3%;
+  height: 100%;
+  color: white;
+  margin-bottom: 15px;
+  vertical-align: top;
+}
+
+
+.box_date_lieu {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    color: white;
+    margin-bottom: 25px;
+    vertical-align: top;
+
+    color:dimgrey;
+            font-size:12px;
+            font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .box_description {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    color: white;
+    margin-bottom: 25px;
+    vertical-align: top;
+
+    color:grey;
+    font-size:11px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .box_description school
+  {
+      vertical-align: top;
+      color:grey;
+      font-size:15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      font-family: bolt;
+  }

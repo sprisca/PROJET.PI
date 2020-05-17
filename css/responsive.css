@@ -1,144 +1,193 @@
 
-    @media screen and (max-width:720px) {
+@media (max-width:1270px) {
 
-        body
-        {
-        
-        width:100%;
-        margin: auto;
-        align-items: center;
-        position: absolute;
-        background:rgb(179, 228, 181);
+  body
+  {
+  
+  width:100%;
+  margin: auto;
+  align-items: center;
+
+  background: rgb(179, 228, 181);
+
+  }
+
+  p
+  {
+      text-align: justify;
+      font-size: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+      color:#757575;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+  background-color: dimgrey;
+  color: #F7CA07;
+  text-align: center;
+  font-size: 20px;
+}
+address {
+  font-style: normal;
+  margin: 20px;
+color: #202020;
+}
+
+
+#block_left {
+  text-align:center;
+  width:100%;
+  background: rgb(179, 228, 181);
+  margin: auto;
+  height:100%
+}
+
+#block_right {
+  text-align:center;
+  width:100%;
+  margin: auto;
+  background:   rgb(179, 228, 181);
+  height:100%;
+  padding-left: 0px;
+}
+  .image-cv
+  {
+      margin-left: auto;
+      margin-right:auto;
+      display: block;
+      border-radius:60px;
+      width: 120px;
+      height: 120PX;
+      text-align: center;
+      margin-bottom: 20px;
+      
+      
+
+  }
+  .about-me {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #202020;
+
+
+  }
+  .profile h1 {
+    display: none;
+}
+.title-color {
+display: none;
+}
+
+.profile h4 {
+ display: none;
+
+}
+
+.profile1 h1 {
+  font-size:  30px;
+  color: #444444;
+  text-transform: uppercase;
+  display: block;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.title-color1 {
+  color:  #444444;
+  display: block;
+}
+
+.profile1 h4 {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: grey;
+  display: block;
+
+}
+
+.profile-info {
+  margin-bottom: 30px;
+  background-color:  dimgrey;
+  height: 22px;
+  color: #F7CA07;
+  border-bottom: none;
+
+}
+
+.profile-info .fa {
+  display: none;
+}
+
+
+.profile-content {
+  display: flex;
+}
+
+.profile-info h3 {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#block_right .fa {
+  color: #F7CA07;
+}
+
+.profile-item {
+  display:flex;
+  margin-bottom: 40px ;
+}
+
+.profile-item .fa {
+  font-size: 10px;
+  margin-left: 40px;
+  width: 1%;
+}
+
+.profile-item .date {
+  width: 29%;
+
+}
+
+.profile-item .description {
+  width: 70%;
+}
+
+.profile-item h4 {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.recommendation h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.recommendation {
+  margin-bottom: 30px;
+
     
-        }
+  }
 
-        #image-cv
-        {
-            margin-left: auto;
-            margin-right:auto;
-            display: block;
-            border-radius:50px 50px 50px 50px;
-            width: 100px;
-            height: 100PX;
-            text-align: center;
-            margin-bottom: 20px;
-            
-            
+.recommendation p 
+{
+    text-align: center;
+}
 
-        }
+ 
 
-        #nom-prenom1{ 
-          background-color: burlywood;
-          display: none;
-        
-          
-        }
-
-        #nom-prenom2
-        {
-          display: block;
-        }
-
-        address
-        {
-            margin-left:20px;
-            margin-top:10px;
-            color:dimgrey;
-
-        }
-
-        p
-        {
-            text-align: justify;
-            font-size: 15px;
-            margin-left: 20px;
-            margin-right: 20px;
-            color:dimgrey;
-
-        }
-
-        h1
-        {
-            word-spacing: 10px;
-            font-size: 40px;
-            color: dimgrey;
-            
-
-
-        }
-
-        h4
-        {
-        color:dimgrey ;
-        margin-top: -30px;
-
-        }
-                
-
-
-        #block-enfant-gauche {
-        text-align:center;
-        width:100%;
-        background:rgb(179, 228, 181);
-        margin: auto;
-        height:1100px;
-        
-        }      
-        
-
-      
-        #block-enfant-droite
-        {
-          text-align:center;
-          width:100%;
-          margin: auto;
-          position: sticky;
-          background:rgb(179, 228, 181);
-          align-content: center;
-          
-
-        }
-        
-
-        .puce
-        {
-            background-color: dimgrey;
-            color:#F7CA07;
-            vertical-align: middle;
-            text-align: center;
-            font-size: 22px;
-            border-bottom:2px solid dimgrey;
-        }
-
-        .grand_titre
-        {
-          text-align: center;
-            
-        }
-
-        .icon_titre
-        {
-          display: none;
-        }
-
-       .a_cacher_responsive
-        {
-          display: none;
-        }
-
-        .a_montrer_responsive
-        {
-          display: block;
-        }
-
-
-      
-        
+}
 
         
-         
-
-    }
 
     
       
